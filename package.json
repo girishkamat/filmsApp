@@ -1,0 +1,15 @@
+{
+  "name": "movieRental",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "app.js"
+  },
+  "dependencies": {
+    "express": "^4.13.3",
+    "express-handlebars": "^2.0.1",
+    "log4js": "^0.6.29",
+    "sequelize": "^3.17.1",
+    "sqlite3": "^3.1.1"
+  }
+}

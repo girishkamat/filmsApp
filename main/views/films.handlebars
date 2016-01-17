@@ -1,0 +1,24 @@
+<div class="hero-unit">
+  <h3>List of available films</h3>
+  <p>The table below lists all films available for rent, along with the rental price in GBP</p>
+  <p>
+    <table class="table table-striped table-bordered">
+	    <thead>
+		<tr>
+			<th>ID</th>
+			<th>Title</th>
+			<th>Rental Rate</th>
+		</tr>
+		</thead>
+		<tbody>
+		  {{#each films}}
+		    <tr>
+		      <td>{{this.filmId}}</td>
+		      <td>{{this.title}}</td>
+		      <td>{{this.rentalRate}}</td>
+		    </tr>
+		  {{/each}}
+		</tbody>  		
+	</table>
+  </p>
+</div>
